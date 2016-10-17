@@ -1,0 +1,422 @@
+
+.btn:focus, .btn:active:focus {
+	outline: transparent;
+}
+.application, .feedback{
+	position: relative;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.application-h2{
+	color: #3754a4;
+	font-weight: 800;
+	text-shadow: white 2px 2px 0, white -2px -2px 0, 
+                 white -2px 2px 0, white 2px -2px 0;
+    margin-bottom: 20px;
+}
+.application-h3 {
+	color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 15px auto;
+}
+.application-wave{
+	position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+
+/*Блок Приложение*/
+
+.application {
+
+}
+.application .app-input {
+	background: red; 
+	/*height: 200px; */
+	z-index:2;
+}
+.application .app-danger {
+	border-radius: 8px;
+	padding: 10px 15px;
+	color: white;
+	background: #b4181e;
+	z-index:2;
+	text-align: center;
+}
+.application .app-danger a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+.application .app-about {
+    padding: 65px 43px;
+	background: white;
+	border-radius: 10px;
+	position: absolute; 
+	top: 25px; 
+	right: 15px; 
+	z-index: 1;
+}
+.application .app-about p {
+    color: #999; 
+    text-align: center;
+    font-style: italic;
+}
+.application .app-about a {
+    color: #b4181e; 
+    font-style: italic;
+}
+
+
+.appInsertData {
+	z-index: 2;
+	border-radius: 8px;/*
+	background: linear-gradient(135deg, #97a6d1 0%, #3953a3 100%);*/
+	background-image: linear-gradient(135deg, #97a6d1 0%, #5f76b7 24%, #3e5aa6 50%, #3853a5 100%);
+	/*height: 300px;*/
+	box-shadow: 63px 0px 30px -67px rgba(0,0,0,0.75);
+}
+.appInsertData .appLinkCaption {
+/*	background-image: linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);
+*/	/*height: 300px;*/
+	background-color: white;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: -40px;
+    right: -17px;
+    padding-top: 22px;
+    border-radius: 10px;
+    box-shadow: 15px 20px 15px -15px rgba(0,0,0,0.5);
+}
+.appInsertData h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.appInsertData .appCaption ul{
+	padding-left: 0;
+    list-style-position: inside;
+    font-family: sans-serif;
+    color: #555;
+    font-style: italic;
+    font-size: 14px;
+}
+.appInsertData label {
+	font-weight: normal;
+    padding-top: 3px;
+    color: white;
+    opacity: 0.7;
+}
+.appInsertData .appInput {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+.appInsertData .appKnow {
+	text-align: right;
+}
+
+.appInsertData .form-control {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 28px;
+    text-align: center;
+}
+.appInsertData .insertHeader {
+	color: white;
+    border-bottom: 1px solid #8e9fcb;
+}
+.appInsertData .insertFooter {
+    border-top: 1px solid #8e9fcb;
+    margin-top: 10px;
+    padding: 15px 15px 5px 15px;
+}
+.appInsertData .form-horizontal {
+    margin-top: 55px;
+}
+.appInsertData .form-group {
+    margin-bottom: 10px;
+}
+.appInsertData .price-badge {
+    /*margin-top: 10px;*/
+    position: absolute;
+	top: 233px;
+    left: -7px;
+    background-image: url('../img/pricebackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 42px;
+    padding-top: 8px;
+}
+.appInsertData .price-badge em {
+	padding: 0 6px;
+	font-size: 15px;
+	color: white;
+}
+.appInsertData .btn-accept {
+	padding-left: 0;
+
+}
+.appInsertData .btn-accept .btn-default {
+    background-image: linear-gradient(to bottom, #bcc6e1 0%, #fdfdfd 50%, #fdfdfd 100%);
+    color: #3855A5;
+	font-weight: 800;
+    border-color: #bcc6e1;
+    font-size: 17px;
+}
+.appInsertData .btn-accept .btn-default:focus, .appInsertData .btn-accept .btn-default:hover {
+	outline: 5px auto transparent;
+    background-color: #bcc6e1;
+    background-position: 0 15px;
+    border-color: #bcc6e1;
+}
+.appInsertData .btn-accept .btn-default:active {
+    background-image: none;
+}
+.appInsertData .clear-form {
+	text-align: center;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.appInsertData .show-example {
+	background-color: #384f8e;
+	padding: 0;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: inset 0px 24px 33px -25px rgba(0,0,0,0.75);
+}
+.appInsertData a {
+    color: white;
+    opacity: 0.7;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+/*_________________________________________*/
+
+
+/*Блок комментарии*/
+
+.feedback {
+
+}
+.feedback .user-comment {
+	background: white;
+    padding: 15px 15px 0;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.feedback .user-text {
+	padding: 0;
+}
+.feedback .user-info {
+	padding: 0;
+	position: relative;
+    bottom: -10px;
+}
+.feedback .user-avatar { 
+	z-index: 1;
+	background-image: url('../img/img1.jpg'); 
+	padding: 0;
+	background-size: 100% 100%;
+	border-radius: 200px;
+    height: 90px;
+    border: 3px solid white;
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.75);
+}
+.feedback .user-avatar:after { 
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	border-radius: 200px;
+	border: white solid 1px;
+	opacity: 0.5;
+}
+.feedback .user-name-date {
+	font-style: italic;
+
+}
+.feedback .name {
+	font-weight: bold;
+	color: #b4181e;
+}
+.feedback .date {
+	color: #999;
+}
+
+.feedback .add-comm {
+    margin-bottom: 40px;
+	text-align: center;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	color: #3754a4;
+}
+
+.feedback .banner {
+	padding: 0;
+    border-radius: 10px;
+}
+.feedback .banner-img {
+	width: 100%;
+}
+.feedback .image-caption{
+    position: absolute;    
+    bottom: 0px;
+    right: 8px;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.feedback .banner-text-h3{
+	padding: 8px;
+	background-color: black;
+	opacity: 0.7;
+	font-size: 15px;
+}
+.feedback .banner-text-h2{
+	padding: 0 8px 8px;
+	background-color: black;
+	margin-top: -10px;
+	opacity: 0.7;
+	position: relative;
+	font-weight: 800;
+	font-size: 19px;
+}
+.feedback .banner-btn{
+	    padding: 0 8px 3px;
+    border-radius: 0;
+    background-color: #b4181e;
+    margin-right: -85px;
+    position: relative;
+    margin-top: 14px;
+    font-size: 12px;
+}
+
+.add-com-btn {
+	width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    background-image: linear-gradient(to bottom, #607cd0 0%, #3956a6 100%);
+    border-color: #3956a6;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,.5);
+    background-repeat: no-repeat;
+}
+.add-com-btn:hover, .add-com-btn:focus {
+	background-color: #3956a6;
+    background-position: 0 -15px;
+    border-color: #3956a6;
+}
+.add-com-btn:focus {
+    outline: transparent;
+}
+/*_________________________________________*/
+
+
+
+    
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@media (min-width: 1200px ) {
+	.menu-burger {
+		display: none;
+	}
+	.menu-navmenu {
+		/*display: none;*/
+	}
+	
+}
+
+@media (max-width: 1199px ) {
+
+	.menu-str {
+		display: none;
+	}
+
+	.nav-li {
+    	border-left: 0;
+	}
+
+	.sale-block {
+    	height: auto;
+	}
+	.sale-block-btn {
+    	margin-top: 25px;
+	}
+	.sale-block-text {
+    	margin-top: 10px;
+    	margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-li {
+    border-left: 0;
+	}
+	/*.footer-img {
+	    margin-left: 13%;
+	}*/
+}
+
+@media (max-width: 767px) {
+	
+	.sale-block-btn {
+    	width: 100%;
+   	}
+	.footer-info-nav-desk{
+		display: none;
+	}
+	.menu-burger .dropdown {
+		border-top-right-radius: 8px;
+	    border-bottom-right-radius: 8px;
+	}
+		
+	/*.footer-img {
+	    margin-left: 38%;
+	}*/
+}
+
+@media (min-width: 768px) {
+	.footer-info-nav-mob{
+		display: none;
+	}
+}
+
+
+@media (max-width: 390px) {
+	.sale-block-btn {
+    	font-size: 19px;
+   	}
+	.sale-block-text{
+    	font-size: 18px;
+	}
+   	.footer-text-dt {
+	    font-size: 15px;
+	}
+	.footer-text-ul>li>a {
+	    font-size: 12px;
+	}
+}
+
+/*,*/
+
+
+
+
+
+

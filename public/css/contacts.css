@@ -1,0 +1,198 @@
+
+.main-application-h2{
+	color: #3754a4;
+	font-weight: bold;
+	text-shadow: white 2px 2px 0, white -2px -2px 0, 
+                 white -2px 2px 0, white 2px -2px 0;
+}
+.application-wave{
+	position: relative;
+	margin-top: -55px;
+
+}
+
+
+/*Контакты*/
+
+.contacts {
+}
+.contacts-h4 {
+	margin: 15px 0 0;
+	font-size: 14px;
+	color: #898888;
+}
+.contacts-h3 {
+	margin: 0 0 15px;
+	font-weight: 800;
+	font-size: 20px;
+}
+.contacts .info-content {
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+.contacts .contacts-caption {
+	margin: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.contacts .contacts-info {
+	background-color: white;
+	border-radius: 10px;
+}
+.contacts .contacts-label h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #898888;
+}
+.contacts .contacts-label p {
+	font-size: 14pt;
+}
+.contacts .info{
+    border-right: 1px solid #f0f0f0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.contacts .add-quest {
+	text-align: center;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	color: #3754a4;
+}
+.add-quest-btn {
+	width: 100%;
+    font-weight: bold;
+    font-size: 13px;
+    background-image: linear-gradient(to bottom, #607cd0 0%, #3956a6 100%);
+    border-color: #3956a6;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,.5);
+    background-repeat: no-repeat;
+}
+.add-quest-btn:hover, .add-quest-btn:focus {
+	background-color: #3956a6;
+    background-position: 0 -15px;
+    border-color: #3956a6;
+}
+.add-quest-btn:focus {
+    outline: transparent;
+}
+
+/*________________________*/
+
+
+
+.content-application-h2, .contacts-h2{
+	color: #3754a4;
+	font-weight: 800;
+	text-shadow: white 2px 2px 0, white -2px -2px 0, 
+                 white -2px 2px 0, white 2px -2px 0;
+}
+.content-application-wave{
+	position: relative;
+	margin-top: -55px;
+}
+.contacts-wave {
+    position: absolute;
+    left: 15px;
+    top: 65px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@media (min-width: 1200px ) {
+	.menu-burger {
+		display: none;
+	}
+	.menu-navmenu {
+		/*display: none;*/
+	}
+	
+}
+
+@media (max-width: 1199px ) {
+	.feedback {
+		display: none;
+	}
+
+	.sale-block-text {
+    	margin-top: 10px;
+    	margin-bottom: 20px;
+	}
+
+	.menu-str {
+		display: none;
+	}
+
+	.nav-li {
+    	border-left: 0;
+	}
+	.sale-block {
+    	height: auto;
+	}
+	.sale-block-btn {
+    	margin-top: 25px;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-li {
+    border-left: 0;
+	}
+	/*.footer-img {
+	    margin-left: 13%;
+	}*/
+}
+
+@media (max-width: 767px) {
+	.sale-block-btn {
+    	width: 100%;
+   	}
+	.footer-info-nav-desk{
+		display: none;
+	}
+	.menu-burger .dropdown {
+		border-top-right-radius: 8px;
+	    border-bottom-right-radius: 8px;
+	}
+		
+	/*.footer-img {
+	    margin-left: 38%;
+	}*/
+}
+
+@media (min-width: 768px) {
+	.footer-info-nav-mob{
+		display: none;
+	}
+
+@media (max-width: 467px) {
+	.text-size {
+    	font-size: 12px;
+	}
+}
+
+@media (max-width: 390px) {
+	.sale-block-btn {
+    	font-size: 19px;
+   	}
+	.sale-block-text{
+    	font-size: 18px;
+	}
+   	.footer-text-dt {
+	    font-size: 15px;
+	}
+	.footer-text-ul>li>a {
+	    font-size: 12px;
+	}
+}
+
+/*,*/
+
+
+
+
+
+

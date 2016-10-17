@@ -1,0 +1,306 @@
+.btn:focus, .btn:active:focus {
+	outline: transparent;
+}
+
+.my-account{
+	margin-top: 25px;/*
+	margin-bottom: 20px;*/
+}
+.my-account-h2{
+	color: #3754a4;
+	font-weight: 800;
+	text-shadow: white 2px 2px 0, white -2px -2px 0, 
+                 white -2px 2px 0, white 2px -2px 0;
+    margin-bottom: 20px;
+}
+.my-account-h3 {
+	color: black;
+	font-weight: 800;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 15px auto;
+}
+.my-account-wave{
+	position: absolute;
+    left: 15px;
+    top: 65px;
+}
+
+
+/*Блок мой аккаунт*/
+
+.my-account {
+
+}
+.acc-info {
+	background-color: white;
+	border-radius: 10px;
+    line-height: 15px;
+}
+.acc-info .info-caption {
+	padding-left: 0;
+}
+.acc-info .info {/*
+	height: 300px;*/
+	/*padding-left: 30px;
+	padding-right: 30px;*/
+}
+.acc-info .info3 {
+	padding-top: 30px;
+	text-align: center;
+	color: #999;
+}
+
+.acc-info .form-control {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	box-shadow: none;
+	border-radius: 0;
+    color: #999;
+    font-size: 14pt;
+    padding: 0;
+}
+.acc-info .form-control[disabled] {
+    cursor: default; 
+    background-color: #fff;
+}
+.acc-info .form-control:focus {
+	
+}
+.acc-info label {
+	color: #3754a4;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.acc-info .info-content {
+	margin-bottom: 15px;
+}
+.after-acc-info, .after-ava {
+    background-color: white;
+    position: relative;
+    padding: 15px;
+    top: -15px;
+    border-radius: 10px;
+}
+.after-ava {
+	top: -52px;
+}
+.acc-btn {
+	width: 100%;
+	font-weight: bold;
+	font-size: 17px;
+	background-image: linear-gradient(to bottom, #607cd0 0%, #3956a6 100%);
+	border-color: #3956a6;
+	color: #fff;
+	box-shadow: 0 2px 6px rgba(0,0,0,.5);
+	background-repeat: no-repeat;
+}
+.after-acc-info .acc-btn:focus, .after-acc-info .acc-btn:hover, .after-ava .acc-btn:focus, .after-ava .acc-btn:hover {
+	background-color: #3956a6;
+    background-position: 0 -15px;
+    border-color: #3956a6;
+}
+#avatar {
+	border-radius: 200px;
+	background-color: white;
+	background: url("../img/avatar.png") 100% 0 no-repeat;
+    background-size: contain;
+	border: 15px solid #fff;
+	padding: 0px; 		
+}
+/*_________________________________________*/
+
+
+/*Таблицы покупок и комментариев*/
+.buying-table, .comment-table {
+	background-color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.table {
+	text-align: center;
+}
+.table>thead {
+	background-color: #f2f2f2;
+	color: #919191;
+}
+.table>thead>tr>th {
+	border-bottom: none;
+	text-align: center;
+}
+.table>thead>tr>th:first-child {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.table>thead>tr>th:last-child {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.table>tbody>tr>td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left: 1px solid #ddd;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.table>tbody>tr:first-child>td {
+	border-top: none;
+}
+.table>tbody>tr>td:first-child {
+	border-left: none;
+}
+
+
+.buying-table .table>tbody>tr>td:nth-child(1),
+.comment-table .table>tbody>tr>td:nth-child(1) {
+    width: 50px;
+}
+.buying-table .table>tbody>tr>td:nth-child(2) {
+	width: 90px;
+}
+.buying-table .table>tbody>tr>td:nth-child(2)>a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+}
+.buying-table .table>tbody>tr>td:nth-child(3),
+.comment-table .table>tbody>tr>td:nth-child(2) {
+	width: 120px;
+	color: #a0a0a0;
+	font-size: 13px;
+}
+.buying-table .table>tbody>tr>td:nth-child(4)>a {
+	color: #b4181e;
+}
+.buying-table .table>tbody>tr>td:nth-child(5) {
+	width: 110px;
+}
+.buying-table .table>tbody>tr>td:nth-child(6),
+.comment-table .table>tbody>tr>td:nth-child(4) {
+    padding-top: 16px;
+    width: 100px;
+}
+.buying-table .table>tbody>tr>td:nth-child(6) .status,
+.comment-table .table>tbody>tr>td:nth-child(4)  .status {
+	color: white;
+	background-color: #9fca41;
+	padding: 6px 12px;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+    text-overflow: ellipsis;
+}
+.buying-table .table>tbody>tr>td:nth-child(7),
+.comment-table .table>tbody>tr>td:nth-child(5) {
+	width: 85px;
+}
+td .after-com-p {
+    font-size: 12px;
+	color: #a0a0a0;
+}
+td .after-com-p a {
+	color: #b4181e;
+}
+/*_________________________________________*/
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@media (min-width: 1200px ) {
+	.menu-burger {
+		display: none;
+	}
+	.menu-navmenu {
+		/*display: none;*/
+	}
+	
+}
+
+@media (max-width: 1199px ) {
+
+	.menu-str {
+		display: none;
+	}
+
+	.nav-li {
+    	border-left: 0;
+	}
+
+	.sale-block {
+    	height: auto;
+	}
+	.sale-block-btn {
+    	margin-top: 25px;
+	}
+	.sale-block-text {
+    	margin-top: 10px;
+    	margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-li {
+    border-left: 0;
+	}
+	/*.footer-img {
+	    margin-left: 13%;
+	}*/
+}
+
+@media (max-width: 767px) {
+	.thumbnail>img, .thumbnail a>img {
+    height: 60%;
+	}
+	.sale-block-btn {
+    	width: 100%;
+   	}
+   	.main-application-h2{
+    	font-size: 25px;
+	}
+	.footer-info-nav-desk{
+		display: none;
+	}
+	.menu-burger .dropdown {
+		border-top-right-radius: 8px;
+	    border-bottom-right-radius: 8px;
+	}
+		
+	/*.footer-img {
+	    margin-left: 38%;
+	}*/
+}
+
+@media (min-width: 768px) {
+	.footer-info-nav-mob{
+		display: none;
+	}
+}
+
+
+@media (max-width: 390px) {
+	.sale-block-btn {
+    	font-size: 19px;
+   	}
+	.sale-block-text{
+    	font-size: 18px;
+	}
+   	.footer-text-dt {
+	    font-size: 15px;
+	}
+	.footer-text-ul>li>a {
+	    font-size: 12px;
+	}
+}
+
+/*,*/
+
+
+
+
+
+

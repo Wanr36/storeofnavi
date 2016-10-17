@@ -1,0 +1,209 @@
+.btn:focus, .btn:active:focus {
+	outline: transparent;
+}
+.catalog{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.catalog-h2{
+	color: #3754a4;
+	font-weight: 800;
+	text-shadow: white 2px 2px 0, white -2px -2px 0, 
+                 white -2px 2px 0, white 2px -2px 0;
+    margin-bottom: 20px;
+}
+.catalog-h3 {
+	color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 15px auto;
+}
+.catalog-wave{
+	position: absolute;
+    left: 15px;
+    top: 65px;
+}
+
+/*Блок мой каталог*/
+
+.catalog {
+
+}
+.catalog-head {
+	border-radius: 10px;
+    background-color: white;
+}
+.catalog-head h5 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 10px;
+}
+.catalog-head ul {
+    padding: 0;
+    margin-bottom: 15px;
+}
+.catalog-head li {
+	display: inline;
+	margin-right: 60px;
+}
+.catalog-head li:last-child {
+	margin-right: 0;
+}
+.catalog-head a {
+	cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+.catalog-head li.active a {
+	cursor: default;
+	color: black;
+    border-bottom: none;
+}
+
+.catalog-body {
+	margin-top: 20px;
+}
+.catalog-body .in-border {
+    border: 3px solid #afd6e2;
+    box-shadow: 0 0 0 5px white;
+	
+}
+.catalog-body .thumbnail:hover {
+    background-color: #3855A5;
+    cursor: pointer;
+}
+.catalog-body .in-border:hover {
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 5px #3855A5;
+}
+.catalog-body .thumbnail {
+    margin: 20px 0px;
+}
+.catalog-body .thumbnail img {
+    width: 60%
+}
+.catalog-body .thumbnail p {
+    margin: 0;
+}
+.catalog-body .catalog-item {
+	display: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.catalog-body .active {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+/*_________________________________________*/
+
+
+/*Таблицы покупок и комментариев*/
+
+/*_________________________________________*/
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@media (min-width: 1200px ) {
+	.menu-burger {
+		display: none;
+	}
+	.menu-navmenu {
+		/*display: none;*/
+	}
+	
+}
+
+@media (max-width: 1199px ) {
+
+	.menu-str {
+		display: none;
+	}
+
+	.nav-li {
+    	border-left: 0;
+	}
+
+	.sale-block {
+    	height: auto;
+	}
+	.sale-block-btn {
+    	margin-top: 25px;
+	}
+	.sale-block-text {
+    	margin-top: 10px;
+    	margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-li {
+    border-left: 0;
+	}
+	/*.footer-img {
+	    margin-left: 13%;
+	}*/
+}
+
+@media (max-width: 767px) {
+	.thumbnail>img, .thumbnail a>img {
+    height: 60%;
+	}
+	.sale-block-btn {
+    	width: 100%;
+   	}
+   	.main-application-h2{
+    	font-size: 25px;
+	}
+	.footer-info-nav-desk{
+		display: none;
+	}
+	.menu-burger .dropdown {
+		border-top-right-radius: 8px;
+	    border-bottom-right-radius: 8px;
+	}
+		
+	/*.footer-img {
+	    margin-left: 38%;
+	}*/
+}
+
+@media (min-width: 768px) {
+	.footer-info-nav-mob{
+		display: none;
+	}
+}
+
+
+@media (max-width: 390px) {
+	.sale-block-btn {
+    	font-size: 19px;
+   	}
+	.sale-block-text{
+    	font-size: 18px;
+	}
+   	.footer-text-dt {
+	    font-size: 15px;
+	}
+	.footer-text-ul>li>a {
+	    font-size: 12px;
+	}
+}
+
+/*,*/
+
+
+
+
+
+

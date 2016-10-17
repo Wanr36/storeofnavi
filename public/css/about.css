@@ -1,0 +1,217 @@
+#hexagon {
+    top: 104px;;
+}
+
+.btn:focus, .btn:active:focus {
+	outline: transparent;
+}
+
+.about{
+	margin-top: 25px;/*
+	margin-bottom: 20px;*/
+}
+.about-h2{
+	color: #3754a4;
+	font-weight: 800;
+	text-shadow: white 2px 2px 0, white -2px -2px 0, 
+                 white -2px 2px 0, white 2px -2px 0;
+    margin-bottom: 20px;
+}
+.about-h3 {
+	color: black;
+	font-weight: 800;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 15px auto;
+}
+.about-wave{
+	position: absolute;
+    left: 15px;
+    top: 65px;
+}
+
+
+/*О проекте*/
+
+.about {
+	margin: 25px 0;
+}
+
+.about .about-head {
+	padding: 25px;
+	background: white;
+	border-radius: 10px;
+	font-size: 16px;
+    margin-bottom: 25px;
+}
+.about .about-head p {
+	margin: 0;
+}
+.about .about-head a {
+	text-decoration: underline;
+}
+.about .three-solution {
+	padding: 0;
+    margin-bottom: 25px;
+}
+.about .three-solution-head {
+	text-align: center;
+    margin-bottom: 25px;
+}
+.about .three-solution-head span {
+	background-color: #3754a4;
+	border-radius: 10px;
+	color: white;
+	font-weight: 600;
+    padding: 5px 15px;
+    display: inline-block;
+}
+.about .solution img {
+	display:block; 
+	margin:0 auto;
+}
+.about .solution p {
+	font-weight: 600;
+    font-size: 14px;
+}
+.about .about-content {
+	background-color: white;
+	border-radius: 10px;
+	padding: 25px;
+}
+.about .about-content .bio {
+	background-color: #fafafa;
+	border-radius: 10px;
+	padding: 20px 20px 10px;
+}
+.about .about-content .bio-ava {
+	padding: 0;
+	border-radius: 500px;
+	background: url("../img/avdeev.png") 100% 100% no-repeat;
+    background-size: contain;
+}
+.about .about-content .bio-text {
+	padding: 0 0 0 20px; 
+}
+.about .about-content .bio-text a {
+	text-decoration: underline;
+}
+ .about .info-app {
+    margin: 30px 0 0;
+    padding: 0 0 30px;
+}
+.about .info-app h4 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about .info-app ul {
+	text-align: center;
+	padding: 0;
+}
+.about .info-app li {
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+
+/*_________________________________________*/
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@media (min-width: 1200px ) {
+	.menu-burger {
+		display: none;
+	}
+	.menu-navmenu {
+		/*display: none;*/
+	}
+	
+}
+
+@media (max-width: 1199px ) {
+
+	.menu-str {
+		display: none;
+	}
+
+	.nav-li {
+    	border-left: 0;
+	}
+
+	.sale-block {
+    	height: auto;
+	}
+	.sale-block-btn {
+    	margin-top: 25px;
+	}
+	.sale-block-text {
+    	margin-top: 10px;
+    	margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-li {
+    border-left: 0;
+	}
+	/*.footer-img {
+	    margin-left: 13%;
+	}*/
+}
+
+@media (max-width: 767px) {
+	.thumbnail>img, .thumbnail a>img {
+    height: 60%;
+	}
+	.sale-block-btn {
+    	width: 100%;
+   	}
+   	.main-application-h2{
+    	font-size: 25px;
+	}
+	.footer-info-nav-desk{
+		display: none;
+	}
+	.menu-burger .dropdown {
+		border-top-right-radius: 8px;
+	    border-bottom-right-radius: 8px;
+	}
+		
+	/*.footer-img {
+	    margin-left: 38%;
+	}*/
+}
+
+@media (min-width: 768px) {
+	.footer-info-nav-mob{
+		display: none;
+	}
+}
+
+
+@media (max-width: 390px) {
+	.sale-block-btn {
+    	font-size: 19px;
+   	}
+	.sale-block-text{
+    	font-size: 18px;
+	}
+   	.footer-text-dt {
+	    font-size: 15px;
+	}
+	.footer-text-ul>li>a {
+	    font-size: 12px;
+	}
+}
+
+/*,*/
+
+
+
+
+
+
